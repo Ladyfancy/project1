@@ -1,7 +1,11 @@
 input {
     border: solid 1px black;
      }
-  
+ 
+html {
+  scroll-behavior: smooth;
+}     
+
 nav  
   .btn {
     display: inline-block;
@@ -68,7 +72,16 @@ border: 1px solid #ffff;
 padding: 7 px 17px;
 }
 
-.carousel-control-next, .carousel-control-prev { width: 40px; height: 80px; top:50%; opacity: .0; background-color: #ed4b96}
+.carousel-control-next, .carousel-control-prev { 
+  width: 40px; 
+  height: 80px; 
+  top:50%; 
+  opacity: .0; 
+  background-color: #ed4b96;
+  margin-top: auto;
+  margin-bottom: auto;
+  right: 0;
+}
 
 #services {background-color: #ed4b96; padding: 50px;
 text-align: center; color: white; 
@@ -95,11 +108,16 @@ text-align: center; color: white;
 }
 
 .portfolio {margin: 50px}
-.portfolio img {width: 100%; margin-bottom: 15px; ;
+.portfolio img {
+  width: 220px;
+  margin-bottom: 15px;
 } 
 
-.portfolio .row {padding-top: 15px;
-border-top: 1px solid #bbb;
+.portfolio .row {
+  padding-top: 15px;
+  border-top: 1px solid #bbb;
+  display: flex;
+  justify-content: space-around;
  }
 .portfolio p {line-height: 1rem;}
 
@@ -201,5 +219,11 @@ footer {background-color: #292929; color: white;
 }
 
 .front img::hover {
-    width: 1000px
+    width: 100px
+}
+
+.carousel-inner img {
+  height: 800px;
+  /* width: 200px; */
+
 }

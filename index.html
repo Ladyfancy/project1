@@ -36,11 +36,14 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#services">Power Supplement Info</a>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">
-              Power Supplement</a>
+            <a class="nav-link" href="#buy">
+              Buy Now</a>
           </li>
         </ul>
       </div>
@@ -48,48 +51,41 @@
     </nav>
   </header>
 
-  <section id="sliderbh"> <div class="bd-example">
-      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-        
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="imgs/workoutwoman.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Power Women's Supplement</h1>
-              <p>30 days to a Smarter and Fitter You.</p>
-                   <button>Read More</button>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="imgs/workoutwoman.jpg" 
+          alt="The Game Changing Woman's Supplement. 
+          Change your life from the inside out.">
+          <div class="carousel-caption d-none d-md-block">
+              <h5>The Game Changing Woman's Supplement.</h5>
+              <p>...</p>
             </div>
-          </div>
-          <div class="carousel-item">
-            <img src="imgs/levelup.JPG" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Level Up</h5>
-              <p>Take your workout to the next level.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="imgs/vitaminbottle.JPG" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>The Little Pink Secret</h5>
-              <p>Discover how 2 little pink pills can change your life.</p>
-            </div><div class="carousel-item">
-                <img src="imgs/blacklogowwords.PNG" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>B Highness</h5>
-                  <p>Your Time for Greatness is Now.</p>
-                </div>
-          </div>
+ </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="imgs/threepillbottles.png" alt="It's time to take your fitness to the next level.">
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="carousel-item">
+          <!-- <img class="d-block w-100" src="imgs/blacklogowwords.PNG" alt="Find out THE POWER of the little pink pill."> -->
+          <iframe width="100%" height="600" src="https://www.youtube.com/embed/M0aodcHbW9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
-     </div> </section>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+        </div>
+        </section>
 
      <section id="services">
         <div class="container">
@@ -113,16 +109,7 @@
         </div>
     </section>
     <section>
-        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-            <div class="flipper">
-              <div class="front">
-                <p>Front</p>
-              </div>
-              <div class="back"><p>Back</p>
-                <!-- back content -->
-              </div>
-            </div>
-          </div>
+        
 
 
     </section>
@@ -133,30 +120,35 @@
       <div class = "container"><h4>The Latest</h4>
         <p>Few of the latest Informationals</p>
         
-        <div class = "flip container" class= "row" ontouchstart="this.classList.toggle('hover');">
+        <div class = "row" ontouchstart="this.classList.toggle('hover');">
 
       
-          <div class ="flipper" class="col-sm-3" class="front"> 
-            <img src="imgs/fran.JPG" alt="" />
-            <p>Hear from Fancy.</p></li>
-            </div><div class="back"><p> 
-              Product is good.
+          <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                  <div class="col-sm-3 front" >
+                      <img src = "imgs/fran.JPG"/>
+                  <p>Hear from Fancy</p>
+                </div>
+                <div class="back"><p>This product is a game changer.</p>
+                  <!-- back content -->
+                </div>
+              </div>
             </div>
-            </p></div>
 
 
-        <div class="col-sm-3" class= "front"><img src="imgs/jed.JPG" alt="" />
+        <div class="col-sm-3 front" >
+          <img src="imgs/jed.JPG" alt="" />
           <p>Hear from Jed</p>
           </div>
 
-          <div class="col-sm-3"><img src="imgs/Bluedress.jpg" alt="" />
+          <!-- <div class="col-sm-3"><img src="imgs/Bluedress.jpg" alt="" />
             <p>Influencers</p>
             </div>
 
             <div class="col-sm-3"><img src="imgs/threepillbottles.png" alt="" />
               <p>Affliates</p>
               </div>
-            </div>
+            </div> -->
        </div>
 
       </div>
@@ -171,7 +163,7 @@
  
   <H1><text-align><center>Buy Now</center></text-align></H1>
 
-  <section class="container">
+  <section id="buy" class="container">
 
   <div class="row">
     <p class="col"> Women's Supplement</p>
@@ -184,7 +176,17 @@
 
     <button type="button" class=" col btn-delete">Delete</button>
   </div>
-
+  <div class="row">
+      <p class="col"> Women's Supplement with Curve Booster</p>
+      <p class="col" type="currency"> $75.00</p>
+      <form class="col">
+        <label class="inline-block" for="price">QTY:</label>
+        <input class="inline-block" type="text" name="price" placeholder="0" />
+      </form>
+      <p class="col"> </p>
+  
+      <button type="button" class=" col btn-delete">Delete</button>
+    </div>
   
     </section>
     <div class="row">
